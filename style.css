@@ -37,7 +37,7 @@ nav .nav-link:hover {
 .bgimage {
     height: 100vh;
     max-height: 900px;
-    background: url("images/image1.jpg");
+    background: url("images/background.webp");
     background-size: cover;
     position: relative;
     filter: brightness(0.8);
@@ -78,7 +78,7 @@ nav .nav-link:hover {
     object-fit: contain;
 }
 #skills p {
-    text-align: center;
+    text-align: left;
 }
 .skillsIcon {
     font-size: 36px;
@@ -97,7 +97,8 @@ nav .nav-link:hover {
 
 /* portfolio */
 #portfolio p {
-    text-align: center;
+    text-align: left;
+        text-justify: auto;
 }
 
 /* contact */
